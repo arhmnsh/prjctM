@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+body {
+  padding-top: 70px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navbar {
+  background: #495663;
+  border: none;
+}
+
+.navbar .navmenu-brand, #filterBtn {
+  color: #eee;
+}
+
+#filterModal .modal-content{
+  background-color: rgba(255,255,255,0.7);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #eee;
+}
+
+.navmenu-brand {
+  margin: 4px 0;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navmenu {
+  padding-left: 20px;
+}
+
+body {
+  background: #07263b;
+}
+
+.panel {
+  background-color: transparent;
+  margin: 20px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+}
+
+.panel-body {
+  background-color: #0b3049;
+  position: relative;
+  padding: 5px 0;
+}
+
+.panel-default>.panel-heading {
+  color: rgba(255,255,255,0.9);
+  font-weight: 900;
+  font-size: 1.6em;
+}
+
+#heartBeatPanel .panel-heading {
+  background-color: #2196f3;
+}
+
+#tab-selector {
+  text-align: center;
+}
+
+#tab-selector li {
+  float: none;
+  display: inline-block;
+}
+
+
+
+
+
+a.list-group-item .list-group-item-heading {
+  color: white;
+}
+
+.list-group-item {
+  background-color: #0b3049;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #255B80;
+  border-bottom: 1px solid #255B80;
+}
+a.list-group-item:hover, a.list-group-item:focus, a.list-group-item:active {
+  background-color: #255B80;
+}
+
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+  .toggle.ios .toggle-handle { border-radius: 20px; }
+
+.toggle .btn-primary, .toggle.btn-primary{
+  background: #E91E63;
+}
+
+
+.settings {
+  padding: 0 10px;
+  color: white;
+}
+
+.settings label {
+  display: block;
+  /*margin: 20px 0;*/
+}
+
+.settings label span {
+  font-size: 1.4em;
+}
+
+.settings label .toggle {
+  float: right;
+  width: 75px !important;
+}
+
+.sliders {
+  justify-content: space-around;
+}
+.sliders label {
+  text-align: center;
+}
+
+#slider1 .slider-handle {
+  background: #f70000 
+}
+#slider2 .slider-handle {
+  background: #a4ff00 
+}
+#slider3 .slider-handle {
+  background: #3bc7da 
+}
+#slider4 .slider-handle {
+  background: #1f7bff 
+}
+
+#filterBtn {
+  float: right;
+  margin: 10px;
+  padding: 2px 10px;
+
+}
+
+
+
